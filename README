@@ -7,11 +7,10 @@ flags:
     -h, --help: display help
 example: chunk /home/user/Downloads/video.mp4 -p 80 -o /home/user/Downloads/output.mp4
 
-```
+
 algorithm:
     1. read video file
     2. extract frames
     3. calculate similarity between frames
     4. if frame similarity is greater than the given percentage, ignore the second frame
     5. write the remaining frames to a new video file
-```
