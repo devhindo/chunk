@@ -1,0 +1,8 @@
+usage: reduce the length of videos buy ignoring repeated frames
+syntax: chunk <path> -p <similarity percentage> -o <output path>
+example: chunk /home/user/Downloads/video.mp4 -p 90 -o /home/user/Downloads/output.mp4
+flags:
+    -p, --percentage: similarity percentage to ignore repeated frames (default: 90)
+    -o, --output: output path (default: same directory as input file)
+    -h, --help: display help
+example: chunk /home/user/Downloads/video.mp4 -p 80 -o /home/user/Downloads/output.mp4
